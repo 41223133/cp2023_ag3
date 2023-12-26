@@ -1,6 +1,7 @@
 { pkgs }: {
-  deps = [
-    pkgs.libev
-    pkgs.vimHugeX
-  ];
+    deps = [
+      pkgs.gnuplot
+      pkgs.ncurses.dev
+      pkgs.gd
+    ];
 }
